@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <title>LitDEMON YT</title>
+</head>
+
+<body>
+    <!-- <header class="header">
+        <svg id="logo" width="1047" height="107" viewBox="0 0 1047 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M1.91997 102.56C4.41597 102.56 6.52797 101.696 8.25597 99.968C10.08 98.144 11.04 95.984 11.136 93.488V13.712C11.04 11.216 10.08 9.10399 8.25597 7.376C6.52797 5.55199 4.41597 4.63999 1.91997 4.63999H0.0479736V3.19999H43.824L43.68 4.63999H41.952C39.456 4.63999 37.296 5.55199 35.472 7.376C33.648 9.10399 32.736 11.216 32.736 13.712V97.808H51.6C58.608 97.808 64.464 95.792 69.168 91.76C73.968 87.728 77.52 82.016 79.824 74.624H81.264L74.64 104H0.0479736V102.56H1.91997Z"
+                stroke="white" stroke-width="5" />
+            <path
+                d="M87.6304 102.56H89.3584C91.6624 102.56 93.6303 101.84 95.2623 100.4C96.8943 98.864 97.7103 97.04 97.7103 94.928V26.672C97.7103 24.56 96.8943 22.784 95.2623 21.344C93.6303 19.808 91.6624 19.04 89.3584 19.04H87.6304V17.6H128.526V19.04H126.798C124.59 19.04 122.67 19.76 121.038 21.2C119.406 22.64 118.542 24.416 118.446 26.528V94.928C118.542 97.136 119.406 98.96 121.038 100.4C122.67 101.84 124.59 102.56 126.798 102.56H128.526V104H87.6304V102.56Z"
+                stroke="white" stroke-width="5" />
+            <path
+                d="M216.735 38.048V36.752C216.735 32.624 215.583 29.36 213.279 26.96C210.975 24.56 207.759 23.312 203.631 23.216H186.927V95.072C187.023 97.184 187.839 98.96 189.375 100.4C190.911 101.84 192.735 102.56 194.847 102.56H196.431V104H156.687V102.56H158.127C160.335 102.56 162.207 101.84 163.743 100.4C165.279 98.96 166.047 97.136 166.047 94.928V23.216H149.487C145.263 23.312 141.999 24.56 139.695 26.96C137.391 29.36 136.239 32.624 136.239 36.752V38.048H134.799V15.296C136.143 15.776 138.351 16.256 141.423 16.736C144.591 17.216 147.423 17.456 149.919 17.456H203.055C207.279 17.456 210.735 17.168 213.423 16.592C216.207 15.92 217.791 15.488 218.175 15.296V38.048H216.735Z"
+                stroke="white" stroke-width="5" />
+            <path
+                d="M277.882 3.19999C294.874 3.19999 308.314 7.71199 318.202 16.736C328.09 25.76 333.034 38.048 333.034 53.6C333.034 69.152 328.09 81.44 318.202 90.464C308.314 99.488 294.874 104 277.882 104H225.61V102.56H227.482C229.978 102.56 232.09 101.696 233.818 99.968C235.642 98.144 236.602 95.984 236.698 93.488V12.848C236.698 10.544 235.738 8.62399 233.818 7.08799C231.994 5.45599 229.882 4.63999 227.482 4.63999H225.61V3.19999H277.882ZM276.01 97.808C282.922 97.808 288.874 96.032 293.866 92.48C298.954 88.928 302.842 83.84 305.53 77.216C308.218 70.496 309.562 63.2 309.562 55.328C309.562 47.456 308.746 40.784 307.114 35.312C305.578 29.744 303.37 25.04 300.49 21.2C294.538 13.232 286.378 9.24799 276.01 9.24799H258.298V97.808H276.01Z"
+                stroke="white" stroke-width="5" />
+            <path
+                d="M343.92 102.56C346.416 102.56 348.528 101.696 350.256 99.968C352.08 98.144 353.04 95.984 353.136 93.488V13.28C352.944 10.784 352.224 8.95999 350.976 7.80799C348.672 5.69599 346.32 4.63999 343.92 4.63999H342.048V3.19999H397.2C401.904 3.19999 405.792 2.86399 408.864 2.19199C411.936 1.42399 413.808 0.895992 414.48 0.60799V25.808L413.04 25.664V24.08C413.04 18.128 410.832 13.904 406.416 11.408C404.304 10.16 401.808 9.48799 398.928 9.39199H374.736V51.296H393.744C397.296 51.2 400.224 50 402.528 47.696C404.832 45.296 405.984 42.368 405.984 38.912V37.616H407.424V70.88H405.984V69.728C405.984 66.176 404.832 63.248 402.528 60.944C400.32 58.64 397.488 57.44 394.032 57.344H374.736V97.808H393.6C400.608 97.808 406.464 95.792 411.168 91.76C415.968 87.728 419.52 82.016 421.824 74.624H423.264L416.64 104H342.048V102.56H343.92Z"
+                stroke="white" stroke-width="5" />
+            <path
+                d="M563.212 102.56H565.516V104H522.316V102.704H524.476C526.108 102.608 527.5 101.936 528.652 100.688C529.804 99.44 530.284 98.048 530.092 96.512L524.476 44.24L497.404 90.896C493.852 96.848 492.028 102.176 491.932 106.88H490.492L453.484 44.672L447.868 96.512C447.676 98.048 448.156 99.488 449.308 100.832C450.46 102.08 451.852 102.704 453.484 102.704H455.644V104H425.548V102.56H427.852C430.54 102.56 432.844 101.744 434.764 100.112C436.78 98.48 437.98 96.272 438.364 93.488L450.316 1.18399H451.612L496.252 74.624L539.164 1.18399H540.46L552.7 93.488C553.18 96.272 554.38 98.48 556.3 100.112C558.316 101.744 560.62 102.56 563.212 102.56Z"
+                stroke="white" stroke-width="5" />
+            <path
+                d="M585.148 15.296C595.42 5.88799 609.196 1.18399 626.476 1.18399C643.852 1.18399 657.628 5.88799 667.804 15.296C678.076 24.704 683.212 37.472 683.212 53.6C683.212 69.728 678.076 82.496 667.804 91.904C657.628 101.312 643.852 106.016 626.476 106.016C609.196 106.016 595.42 101.312 585.148 91.904C574.972 82.496 569.884 69.728 569.884 53.6C569.884 37.472 574.972 24.704 585.148 15.296ZM602.284 87.584C608.236 95.84 616.3 99.968 626.476 99.968C636.652 99.968 644.716 95.84 650.668 87.584C656.62 79.232 659.596 67.904 659.596 53.6C659.596 39.296 656.62 28.016 650.668 19.76C644.716 11.408 636.652 7.23199 626.476 7.23199C616.3 7.23199 608.236 11.408 602.284 19.76C596.428 28.016 593.5 39.296 593.5 53.6C593.5 67.904 596.428 79.232 602.284 87.584Z"
+                stroke="white" stroke-width="5" />
+            <path
+                d="M804.086 4.63999C800.726 4.63999 798.181 6.07999 796.453 8.95999C795.685 10.208 795.254 11.648 795.158 13.28V87.584C795.158 94.016 795.589 99.44 796.453 103.856L796.885 106.016H795.589L722.87 36.752V93.92C722.87 96.32 723.733 98.384 725.461 100.112C727.189 101.744 729.254 102.56 731.654 102.56H734.39V104H690.758V102.56H693.349C695.845 102.56 697.957 101.744 699.685 100.112C701.413 98.384 702.278 96.272 702.278 93.776V19.04C702.278 12.704 701.846 7.42399 700.982 3.19999L700.693 1.03999H701.99L774.71 70.304V13.424C774.614 10.928 773.702 8.86399 771.974 7.23199C770.246 5.50399 768.181 4.63999 765.781 4.63999H763.19V3.19999H806.822V4.63999H804.086Z"
+                stroke="white" stroke-width="5" />
+            <path
+                d="M952.871 4.63999H950.855C947.975 4.63999 945.239 5.45599 942.647 7.08799C940.055 8.71999 937.991 10.688 936.455 12.992L908.087 58.208V93.488C908.087 95.984 908.999 98.144 910.823 99.968C912.647 101.696 914.807 102.56 917.303 102.56H919.031L919.175 104H875.399V102.56H877.271C879.767 102.56 881.879 101.696 883.607 99.968C885.431 98.24 886.391 96.128 886.487 93.632V58.064L858.983 12.848C857.543 10.544 855.479 8.62399 852.791 7.08799C850.199 5.45599 847.511 4.63999 844.727 4.63999H842.711V3.19999H890.375V4.63999H888.503C886.391 4.63999 884.759 5.59999 883.607 7.51999C883.031 8.57599 882.743 9.63199 882.743 10.688C882.743 11.648 882.983 12.608 883.463 13.568L904.055 51.008L925.511 13.568C925.991 12.608 926.231 11.648 926.231 10.688C926.231 9.63199 925.895 8.62399 925.223 7.66399C924.071 5.64799 922.439 4.63999 920.327 4.63999H918.599V3.19999H952.871V4.63999Z"
+                stroke="white" stroke-width="5" />
+            <path
+                d="M1011.4 9.10399V93.632C1011.49 96.128 1012.4 98.24 1014.13 99.968C1015.96 101.696 1018.12 102.56 1020.61 102.56H1022.34L1022.48 104H978.708V102.56H980.58C982.98 102.56 985.044 101.696 986.772 99.968C988.596 98.24 989.604 96.176 989.796 93.776V9.10399H970.356C965.94 9.19999 962.436 10.592 959.844 13.28C957.252 15.968 955.956 19.472 955.956 23.792V25.52H954.516V0.463989C958.452 2.09599 964.116 2.95999 971.508 3.05599H1029.54C1032.52 3.05599 1035.73 2.76799 1039.19 2.19199C1042.74 1.61599 1045.19 1.03999 1046.53 0.463989V25.52H1045.09V23.792C1045.09 17.84 1042.84 13.616 1038.32 11.12C1036.21 9.87199 1033.67 9.19999 1030.69 9.10399H1011.4Z"
+                stroke="white" stroke-width="5" />
+        </svg>
+    </header> -->
+    <div class="site-wrapper">
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#" style="font-family: 'Cinzel Decorative', cursive;">LitDEMON YT</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto"></ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" onclick='scrollCustom("carouselExampleFade")'>Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick='scrollCustom("videos");'>Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick='scrollCustom("joinus");'>Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://i.pinimg.com/originals/33/b2/b9/33b2b9176486c6124556f5644e04903c.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://wallpapercave.com/wp/wp6392751.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTg0-cHAVoQZJYZsYQI-1yDmbSgItFlpQkXYg&usqp=CAU"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </main>
+    </div>
+    <section class="section-1" id="videos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem; ">
+                        <img style="height: 180px;"
+                            src="https://img.redbull.com/images/c_fill,g_auto,w_860,h_573/q_auto,f_auto/redbullcom/2016/11/11/1331828802784_2/ezio-auditore-is-coming-to-current-gen-consoles"
+                            class="card-img-top" alt="...">
+                        <div class="card-body text-dark">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eveniet
+                                eum culpa alias est vitae possimus quas voluptatibus, iusto a dicta, blanditiis incidunt
+                                accusamus quia ex rerum minima sit necessitatibus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.nme.com/wp-content/uploads/2020/07/Assassins-Creed-Valhalla-1.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body text-dark">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eveniet
+                                eum culpa alias est vitae possimus quas voluptatibus, iusto a dicta, blanditiis incidunt
+                                accusamus quia ex rerum minima sit necessitatibus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images2.alphacoders.com/532/532411.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-dark">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eveniet
+                                eum culpa alias est vitae possimus quas voluptatibus, iusto a dicta, blanditiis incidunt
+                                accusamus quia ex rerum minima sit necessitatibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-md-4 offset-2">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-12-15-11-38/digitalfoundry-2019-assassins-creed-rebel-collection-switch-analysis-1576409897658.jpg/EG11/thumbnail/750x422/format/jpg/quality/60"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-white">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-white">Discord</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-12-15-11-38/digitalfoundry-2019-assassins-creed-rebel-collection-switch-analysis-1576409897658.jpg/EG11/thumbnail/750x422/format/jpg/quality/60"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-white">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-white">Discord</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-2">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Upcoming videos</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <span class="parallax"></span>
+        </div>
+    </section>
+    <section class="section-3 m-4" id="joinus">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <h3 class="text-dark text-center">Join Us</h3>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                <div class="card text-white bg-dark mb-3 mt-3" style="max-width: 18rem;">
+                    <div class="card-header">LitDEMON YT</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Youtube</h5>
+                      <a href="https://www.youtube.com/channel/UCWI88QSH14vByBMQa5g3edA"><p class="card-text">https://www.youtube.com/channel/UCWI88QSH14vByBMQa5g3edA</p></a>
+                    </div>
+                  </div>
+               </div> 
+               <div class="col-md-4">
+                <div class="card text-white bg-dark mb-3 mt-3" style="max-width: 18rem;">
+                    <div class="card-header">LITDEMON YT</div>
+                    <div class="card-body" style="height: 151px">
+                      <h5 class="card-title">Discord</h5>
+                      <a href="https://discord.gg/MJk2v4Z"><p class="card-text">https://discord.gg/MJk2v4Z</p></a>
+                    </div>
+                  </div>
+               </div> 
+               <div class="col-md-4">
+                <div class="card text-white bg-dark mb-3 mt-3" style="max-width: 18rem;">
+                    <div class="card-header">litdemonyt</div>
+                    <div class="card-body" style="height: 151px">
+                      <h5 class="card-title">Instagram</h5>
+                      <a href="https://www.instagram.com/litdemonyt/"><p class="card-text">https://www.instagram.com/litdemonyt/</p></a>
+                    </div>
+                  </div>
+               </div> 
+            </div>
+        </div>
+    </section>
+    <section class="section-4">
+        <p class="text-center text-dark pb-4">
+            Copyright &copy; All rights Reserved <span style="color: crimson">LitDEMON YT</span>
+        </p>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
